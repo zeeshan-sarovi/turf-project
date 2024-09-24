@@ -1089,7 +1089,7 @@ div.dataTables_filter .form-control {
 .header .header-nav .main-nav > li > a:before {
   content: "";
   top: 16px;
-  background-image: url(../img/icons/menu-active.svg);
+  background-image: url(../img/icons/tennis-bal.svg);
   width: 17px;
   height: 17px;
   opacity: 0;
@@ -1573,7 +1573,7 @@ div.dataTables_filter .form-control {
   width: 5px;
   height: 5px;
   border-radius: 5px;
-  background-color: #23B33A;
+  background-color: #d95353;
   position: absolute;
   top: 0;
   right: 0;
@@ -2366,7 +2366,7 @@ input[type=number] {
 	38. Loader
 -----------------------*/
 div#global-loader {
-  background: #FFFFFF;
+  background: linear-gradient(90deg, rgba(11,98,115,1) 0%, rgba(22,123,131,1) 35%, rgba(74,166,127,1) 100%);
   position: fixed;
   z-index: 999999;
   width: 100%;
