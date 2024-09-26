@@ -5,26 +5,26 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
-  <title>DreamSports</title>
+  <title>Ground 7</title>
 
   <meta name="twitter:description"
-    content="Elevate your badminton business with Dream Sports template. Empower coaches & players, optimize court performance and unlock industry-leading success for your brand." />
+    content="Elevate your badminton business with Dream Sports template. Empower Turfs & players, optimize court performance and unlock industry-leading success for your brand." />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description"
-    content="Elevate your badminton business with Dream Sports template. Empower coaches & players, optimize court performance and unlock industry-leading success for your brand." />
+    content="Elevate your badminton business with Dream Sports template. Empower Turfs & players, optimize court performance and unlock industry-leading success for your brand." />
   <meta name="keywords"
     content="badminton, coaching, event, players, training, courts, tournament, athletes, courts rent, lessons, court booking, stores, sports faqs, leagues, chat, wallet, invoice" />
   <meta name="author" content="Dreamguys - DreamSports" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@dreamguystech" />
-  <meta name="twitter:title" content="DreamSports -  Booking Coaches, Venue for tournaments, Court Rental template" />
+  <meta name="twitter:title" content="DreamSports -  Booking Turfs, Venue for tournaments, Court Rental template" />
   <meta name="twitter:image" content="assets/img/meta-image.jpg" />
   <meta name="twitter:image:alt" content="DreamSports" />
   <meta property="og:url" content="https://dreamsports.dreamguystech.com/" />
-  <meta property="og:title" content="DreamSports -  Booking Coaches, Venue for tournaments, Court Rental template" />
+  <meta property="og:title" content="DreamSports -  Booking Turfs, Venue for tournaments, Court Rental template" />
   <meta property="og:description"
-    content="Elevate your badminton business with Dream Sports template. Empower coaches & players, optimize court performance and unlock industry-leading success for your brand." />
+    content="Elevate your badminton business with Dream Sports template. Empower Turfs & players, optimize court performance and unlock industry-leading success for your brand." />
   <meta property="og:image" content="../assets/img/meta-image.jpg" />
   <meta property="og:image:secure_url" content="assets/img/meta-image.jpg" />
   <meta property="og:image:type" content="image/png" />
@@ -54,7 +54,42 @@
   <link rel="stylesheet" href="dreamsports.dreamstechnologies.com/html/assets/css/feather.css" />
 
   <link rel="stylesheet" href="dreamsports.dreamstechnologies.com/html/assets/css/style.css" />
-
+  <style>
+.ball {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  margin-left: -20px;
+  border-radius: 50%;
+  animation:ball-fall 1.11s ease-in infinite alternate, ball-right 5s linear infinite, ball-spin 1s linear infinite; /* Spin animation */;
+}
+@keyframes ball-fall {
+  0% {
+    top:0%
+  }
+  100% {
+    top:93%;
+  }
+}
+@keyframes ball-right {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes ball-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg); /* Full rotation */
+  }
+}
+  </style>
 </head>
 
 <body>
@@ -76,13 +111,13 @@
                 <span></span>
               </span>
             </a>
-            <a href="dreamsports.dreamstechnologies.com/html/index.html" class="navbar-brand logo">
+            <a href="#" class="navbar-brand logo">
               <img src="dreamsports.dreamstechnologies.com/html/assets/img/logo.svg" class="img-fluid" alt="Logo" />
             </a>
           </div>
           <div class="main-menu-wrapper">
             <div class="menu-header">
-              <a href="dreamsports.dreamstechnologies.com/html/index.html" class="menu-logo">
+              <a href="#" class="menu-logo">
                 <img src="dreamsports.dreamstechnologies.com/html/assets/img/logo-black.svg" class="img-fluid"
                   alt="Logo" />
               </a>
@@ -90,46 +125,26 @@
                 <i class="fas fa-times"></i></a>
             </div>
             <ul class="main-nav">
-              <li class="active">
-                <a href="dreamsports.dreamstechnologies.com/html/index.html">Home</a>
-              </li>
-              <li class="has-submenu">
-                <a href="dreamsports.dreamstechnologies.com/html/about-us.html">About Us </a>
-
-              </li>
 
               <li class="has-submenu">
-                <a href="#">Pages <i class="fas fa-chevron-down"></i></a>
-                <ul class="submenu">
-
-                  <li>
-                    <a href="dreamsports.dreamstechnologies.com/html/services.html">Services</a>
-                  </li>
-                  <li>
-                    <a href="dreamsports.dreamstechnologies.com/html/events.html">Events</a>
-                  </li>
-
-                  <li>
-                    <a href="dreamsports.dreamstechnologies.com/html/gallery.html">Gallery</a>
-                  </li>
-
-                </ul>
-              </li>
-              <li class="has-submenu">
-                <a href="dreamsports.dreamstechnologies.com/html/blog-grid.html">Blog</a>
+                <a href="dreamsports.dreamstechnologies.com/html/blog-grid.html">Play</a>
 
               </li>
               <li>
-                <a href="dreamsports.dreamstechnologies.com/html/contact-us.html">Contact Us</a>
+                <a href="dreamsports.dreamstechnologies.com/html/coaches-map.html">Book</a>
               </li>
-              
+              <li>
+                <a href="">ChatBox</a>
+              </li>
+
             </ul>
           </div>
+          <!-- rightside-profile -->
+
           <ul class="nav header-navbar-rht logged-in">
             <li class="nav-item">
-              <form class="header-search">
-                <a class="nav-link" href="coaches-grid.html"><i style="color: #fff;" class="feather-search"></i></a>
-              </form>
+              <a class="nav-link btn btn-secondary" href="add-court.html"><span><i
+                    class="feather-check-circle"></i></span>Book Your Turf</a>
             </li>
             <li class="nav-item dropdown noti-nav">
               <a href="listing-grid.html" class="dropdown-toggle nav-link position-relative" data-bs-toggle="dropdown">
@@ -226,14 +241,16 @@
               </div>
             </li>
 
+
           </ul>
+          <!-- rightside-profile -->
         </nav>
       </div>
     </header>
 
     <section class="hero-section">
-      <div class="banner-cock-one">
-        <img src="dreamsports.dreamstechnologies.com/html/assets/img/icons/football-ball.svg" alt="Banner" />
+      <div class="ball">
+        <img src="dreamsports.dreamstechnologies.com/html/assets/img/icons/foot.svg" alt="Banner" />
       </div>
       <div class="banner-shapes">
         <div class="banner-dot-one">
@@ -259,7 +276,16 @@
                 <p class="sub-info">
                   Reserve Your Spot for Friendly Matches
                 </p>
-
+                <ul class="nav header-navbar-rht" style="gap: 10px; margin-top: 1rem;">
+                  <li class="nav-item">
+                    <div class="nav-link btn btn-primary log-register">
+                    <a href="login.html"><span></span></a>Book Now
+                    </div>
+                    </li>
+                  <li class="nav-item">
+                  <a class="nav-link btn btn-secondary" href="dreamsports.dreamstechnologies.com/html/about-us.html"><span></i></span>Learn More</a>
+                  </li>
+                  </ul>
               </div>
             </div>
             <div class="col-lg-5">
@@ -286,7 +312,7 @@
         <div class="section-heading aos" data-aos="fade-up">
           <h2>How It <span>Works</span></h2>
           <p class="sub-title">
-            Simplifying the booking process for coaches, venues, and athletes.
+            Simplifying the booking process for Turfs/Courts.
           </p>
         </div>
         <div class="row justify-content-center">
@@ -302,8 +328,7 @@
                   <a href="dreamsports.dreamstechnologies.com/html/register.html">Join Us</a>
                 </h5>
                 <p>
-                  Quick and Easy Registration: Get started on our software
-                  platform with a simple account creation process.
+                  Register quickly and access our platform in seconds. Create your account now!
                 </p>
                 <a class="btn" href="dreamsports.dreamstechnologies.com/html/register.html">
                   Register Now <i class="feather-arrow-right"></i>
@@ -320,14 +345,12 @@
               </div>
               <div class="work-content">
                 <h5>
-                  <a href="dreamsports.dreamstechnologies.com/html/coaches-list.html">Select Coaches/Venues</a>
+                  <a href="dreamsports.dreamstechnologies.com/html/coaches-list.html">Select Turf/Court</a>
                 </h5>
                 <p>
-                  Book Badminton coaches and venues for expert guidance and
-                  premium facilities.
-                </p>
+                  Book premium turfs and courts for quality facilities and expert guidance to enhance your sports experience.</p>
                 <a class="btn" href="dreamsports.dreamstechnologies.com/html/coaches-list.html">
-                  Go To Coaches <i class="feather-arrow-right"></i>
+                  Go To Turfs <i class="feather-arrow-right"></i>
                 </a>
               </div>
             </div>
@@ -344,8 +367,7 @@
                   <a href="dreamsports.dreamstechnologies.com/html/coach-details.html">Booking Process</a>
                 </h5>
                 <p>
-                  Easily book, pay, and enjoy a seamless experience on our
-                  user-friendly platform.
+                  Effortlessly schedule, pay, and experience a hassle-free journey on our easy-to-use platform.
                 </p>
                 <a class="btn" href="dreamsports.dreamstechnologies.com/html/coach-details.html">
                   Book Now <i class="feather-arrow-right"></i>
@@ -362,10 +384,7 @@
         <div class="section-heading aos" data-aos="fade-up">
           <h2>Featured <span>Venues</span></h2>
           <p class="sub-title">
-            Advanced sports venues offer the latest facilities, dynamic and
-            unique environments for enhanced badminton performance.
-          </p>
-        </div>
+            Experience premier venues with state-of-the-art turf designed to elevate your performance!        </div>
         <div class="row">
           <div class="featured-slider-group">
             <div class="owl-carousel featured-venues-slider owl-theme">
@@ -606,16 +625,15 @@
       </div>
     </section>
 
-    <section class="section service-section">
+    <section class="section service-section featured-section">
       <div class="work-cock-img">
         <img src="dreamsports.dreamstechnologies.com/html/assets/img/icons/work-cock.svg" alt="Service" />
       </div>
       <div class="container">
         <div class="section-heading aos" data-aos="fade-up">
-          <h2>Explore Our <span>Services</span></h2>
+          <h2>Explore Our <span>Games</span></h2>
           <p class="sub-title">
-            Fostering excellence and empowering sports growth through tailored
-            services for athletes, coaches, and enthusiasts.
+            Explore exciting games that challenge your skills and ignite your passion for competition!
           </p>
         </div>
         <div class="row">
@@ -729,194 +747,7 @@
       </div>
     </section>
 
-    <section class="section featured-section">
-      <div class="container">
-        <div class="section-heading aos" data-aos="fade-up">
-          <h2>Featured <span>Coaches</span></h2>
-          <p class="sub-title">
-            Uplift your badminton game with our featured coaches, personalized
-            instruction, and expertise to achieve your goals.
-          </p>
-        </div>
-        <div class="row">
-          <div class="featured-slider-group aos" data-aos="fade-up">
-            <div class="owl-carousel featured-coache-slider owl-theme">
-              <div class="featured-venues-item">
-                <div class="listing-item mb-0">
-                  <div class="listing-img">
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">
-                      <img src="dreamsports.dreamstechnologies.com/html/assets/img/profiles/user-01.jpg" alt="User" />
-                    </a>
-                    <div class="fav-item-venues">
-                      <span class="tag tag-blue">Rookie</span>
-                      <div class="list-reviews coche-star">
-                        <a href="javascript:void(0)" class="fav-icon">
-                          <i class="feather-heart"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="hour-list">
-                      <h5 class="tag tag-primary">
-                        From $250 <span>/hr</span>
-                      </h5>
-                    </div>
-                  </div>
-                  <div class="listing-content list-coche-content">
-                    <span>4 Lessons</span>
-                    <h3>
-                      <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">Kevin Anderson</a>
-                    </h3>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html"><i
-                        class="feather-arrow-right"></i></a>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html" class="icon-hover"><i
-                        class="feather-calendar"></i></a>
-                  </div>
-                </div>
-              </div>
 
-              <div class="featured-venues-item">
-                <div class="listing-item mb-0">
-                  <div class="listing-img">
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">
-                      <img src="dreamsports.dreamstechnologies.com/html/assets/img/profiles/user-02.jpg" alt="User" />
-                    </a>
-                    <div class="fav-item-venues">
-                      <span class="tag tag-blue">Intermediate</span>
-                      <div class="list-reviews coche-star">
-                        <a href="javascript:void(0)" class="fav-icon">
-                          <i class="feather-heart"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="hour-list">
-                      <h5 class="tag tag-primary">
-                        From $150 <span>/hr</span>
-                      </h5>
-                    </div>
-                  </div>
-                  <div class="listing-content list-coche-content">
-                    <span>3 Lessons</span>
-                    <h3>
-                      <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">Harry Richardson</a>
-                    </h3>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html"><i
-                        class="feather-arrow-right"></i></a>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html" class="icon-hover"><i
-                        class="feather-calendar"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="featured-venues-item">
-                <div class="listing-item mb-0">
-                  <div class="listing-img">
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">
-                      <img src="dreamsports.dreamstechnologies.com/html/assets/img/profiles/user-03.jpg" alt="User" />
-                    </a>
-                    <div class="fav-item-venues">
-                      <span class="tag tag-blue">Professional</span>
-                      <div class="list-reviews coche-star">
-                        <a href="javascript:void(0)" class="fav-icon">
-                          <i class="feather-heart"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="hour-list">
-                      <h5 class="tag tag-primary">
-                        From $350 <span>/hr</span>
-                      </h5>
-                    </div>
-                  </div>
-                  <div class="listing-content list-coche-content">
-                    <span>2 Lessons</span>
-                    <h3>
-                      <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">Evon Raddick</a>
-                    </h3>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html"><i
-                        class="feather-arrow-right"></i></a>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html" class="icon-hover"><i
-                        class="feather-calendar"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="featured-venues-item">
-                <div class="listing-item mb-0">
-                  <div class="listing-img">
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">
-                      <img src="dreamsports.dreamstechnologies.com/html/assets/img/profiles/user-04.jpg" alt="User" />
-                    </a>
-                    <div class="fav-item-venues">
-                      <span class="tag tag-blue">Rookie</span>
-                      <div class="list-reviews coche-star">
-                        <a href="javascript:void(0)" class="fav-icon">
-                          <i class="feather-heart"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="hour-list">
-                      <h5 class="tag tag-primary">
-                        From $250 <span>/hr</span>
-                      </h5>
-                    </div>
-                  </div>
-                  <div class="listing-content list-coche-content">
-                    <span>4 Lessons</span>
-                    <h3>
-                      <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">Angela Roudrigez</a>
-                    </h3>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html"><i
-                        class="feather-arrow-right"></i></a>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html" class="icon-hover"><i
-                        class="feather-calendar"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="featured-venues-item">
-                <div class="listing-item mb-0">
-                  <div class="listing-img">
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">
-                      <img src="dreamsports.dreamstechnologies.com/html/assets/img/profiles/user-02.jpg" alt="User" />
-                    </a>
-                    <div class="fav-item-venues">
-                      <span class="tag tag-blue">Intermediate</span>
-                      <div class="list-reviews coche-star">
-                        <a href="javascript:void(0)" class="fav-icon">
-                          <i class="feather-heart"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="hour-list">
-                      <h5 class="tag tag-primary">
-                        From $150 <span>/hr</span>
-                      </h5>
-                    </div>
-                  </div>
-                  <div class="listing-content list-coche-content">
-                    <span>4 Lessons</span>
-                    <h3>
-                      <a href="dreamsports.dreamstechnologies.com/html/coach-detail.html">Harry Richardson</a>
-                    </h3>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html"><i
-                        class="feather-arrow-right"></i></a>
-                    <a href="dreamsports.dreamstechnologies.com/html/coach-details.html" class="icon-hover"><i
-                        class="feather-calendar"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="view-all text-center aos" data-aos="fade-up">
-          <a href="dreamsports.dreamstechnologies.com/html/coaches-list.html"
-            class="btn btn-secondary d-inline-flex align-items-center">
-            View All Coaches
-            <span class="lh-1"><i class="feather-arrow-right-circle ms-2"></i></span>
-          </a>
-        </div>
-      </div>
-    </section>
 
     <section class="section journey-section">
       <div class="container">
