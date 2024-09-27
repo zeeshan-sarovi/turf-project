@@ -3021,7 +3021,7 @@ div#global-loader {
 }
 .featured-venues:before {
   content: "";
-  background-image: url(../img/icons/cock-icon.svg);
+  background-image: url(../img/icons/cricket1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 123px;
@@ -3744,7 +3744,7 @@ div#global-loader {
 }
 .group-coaching:before {
   content: "";
-  background-image: url(../img/icons/bg-02.svg);
+  background-image: url(../img/icons/cricket1.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 123px;
